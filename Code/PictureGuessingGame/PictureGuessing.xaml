@@ -1,0 +1,21 @@
+﻿<Window x:Name="PictureGuessingWindow" x:Class="PictureGuessingGame.PictureGuessing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PictureGuessingGame"
+        mc:Ignorable="d"
+        Height="635"
+        Width="1015"
+        WindowStartupLocation="CenterScreen" 
+        ScrollViewer.VerticalScrollBarVisibility="Disabled"
+        ResizeMode="NoResize"
+        Background="White"
+        Loaded="PictureGuessing_Loaded"
+        BorderThickness="0"
+        Icon="Resources/picture guessing logo.png" Title="Picture Guessing Game | C4PE" Style="{DynamicResource DarkModeWindow}">
+    <Grid Width="1000" Height="600">
+        <Frame x:Name="PictureGuessingFrame" Content="" Height="600" Width="1000" VerticalAlignment="Top" Background="#FF1A1A1A" NavigationUIVisibility="Hidden"/>
+
+    </Grid>
+</Window>
